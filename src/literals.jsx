@@ -64,7 +64,7 @@ export const skills=[{
 },{
         "name": "Front End",
         // "description":[ "I can create a beautiful and scalable SPA using HTML, CSS and Javascript. I can also choose a modern front-end framework like ReactJS for your project."],
-        "tools": ["HTML", "CSS", "Javascript", "ReactJS","Redux", "TailwindCSS","MaterialUI","Bootstrap","SASS","Styled Components","NextJS"]
+        "tools": ["HTML", "CSS", "Javascript", "ReactJS","Redux","NextJS", "TailwindCSS","MaterialUI","Bootstrap","SASS","Styled Components"]
 },{
         "name": "Back End",
         // "description": ["I can create a beautiful and scalable SPA using HTML, CSS and Javascript. I can also choose a modern front-end framework like ReactJS for your project."],
@@ -79,3 +79,18 @@ export const contact={"linkedIn": "https://linkedin.com/in/hingu-parth/",
                          "website": "https://hingu-parth.github.io" }
                 
 
+                        //  • Developer with 2+ years of experience in designing, developing, and managing complex websites and internal frameworks specialized in web applications and user experience using JavaScript, React, TypeScript, Node.JS, MongoDB, Material UI and TailWindCSS
+                        //  • Good knowledge of RESTFUL web services and API integration using Node.js, Express.js, and MongoDB
+                        //  • Exclusively used React-Hooks to handle application life-cycle processes and created various custom hooks that helped ease the reuse of the application logic
+                        //  • Good understanding of Domain Driven Design, and API design, including versioning, isolation, and micro-services architecture
+                        //  • Strong understanding of working with GIT as code repository and version control tools
+                        //  • Excellent problem-solving and analytical skills with strong attention to detail to deliver expected quality, having the ability to work in a team to resolve various problems
+                        //  • Strong analytical and dynamic troubleshooting skills coupled with excellent communication skills
+                        //  • Produced stunning visual elements of web applications by translating UI/UX design wireframes into code while producing high-quality, reusable mark-up using HTML5, CSS3, Bootstrap, and JavaScript libraries
+                        //  Proficiency in using frontend testing 
+                         
+                         //  • Hands-on experience in creating highly interactive single-page applications using the ReactJS framework that respond to all user actions
+                        //  • Skilled in building Web User Interfaces (UI) using HTML4/HTML5, CSS2/CSS3, XHTML, JavaScript, jQuery, XML, JSON, SOAP, REST APIs
+                        //  • Experienced in front-end Test-Driven Development (TDD) using the Jest unit testing framework to write the smallest unit tests for each smaller component that is implementing the application functionality.
+                        //  • Expertise in documenting APIs leveraging an API documentation framework (Swagger UI) and building Single Page Applications (SPAs) and with a great understanding of responsive design for multiple browsers and device sizes
+                        //  • Proficient in working with Agile, Iterative, and Waterfall Methodologies and experienced in writing reusable code with breakpoints to create pixel-perfect responsive web design and implementation with tools such as browser stack to ensure cross-browser compatibility.
