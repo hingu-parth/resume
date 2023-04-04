@@ -15,7 +15,7 @@ const HomePage = () => {
     <main class="font-firago hyphens-manual">
 
     {/* <!-- Page --> */}
-    <div className="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white text-left">
+    <div className="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-executive xsm:p-8 sm:p-9 md:p-16 print:mt-16 print:bg-white bg-gray-100">
 
     {/* <!-- Name --> */}
       <header className="flex items-center mb-8 md:mb-11">
@@ -31,7 +31,7 @@ const HomePage = () => {
       {/* <!-- end Name --> */}
 
       {/* <!-- Column --> */}
-      <div className="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
+      <div className="md:col-count-2 print:col-count-2 col-gap-md md:h-letter print:h-letter-col col-fill-auto">
 
         <section className="mt-8 first:mt-0">
 
