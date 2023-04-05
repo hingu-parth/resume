@@ -2,12 +2,10 @@ export const experience=[{
         "name":"Tata Consultancy Services",
         "duration":"May 2021 – Present",
         "position":"Software Developer",
-        "description":["Working with Pfizer as a software developer in DevOps & security team using Jira, MuleSoft & Splunk Technology.",
-                "Create/migrate existing dashboards to highlight actionable insights and to analyze performance of applications in real-time with Splunk.",
-                "Defined automation in workflows with Groovy & Python in Atlassian JIRA.",
-                "Executed development of Jira Projects in a team of 5; maximized productivity and project efficiency, leading to automation of 2 processes.",
-                "Engaged in API lifecycle process with NodeJS, covering 3 phases from conceptual design, Implement to Management.",
-                "Deployed APIs to Cloudhub, Runtime Fabric, On-prem workers, and implemented Policies in MuleSoft API Manager.",
+        "description":["Working with Pfizer as a software developer in technologies include React, NodeJs Material UI, Jira and Splunk.",
+                "Created custom visualizations in Splunk dashboards to gain actionable insights and improve user experience by 50% using Javascript, Material UI, D3.js and Chart.js ",
+                "Build automation in workflows, update issues, generated custom reports, and reduced manual work by 80% with Javascript in Atlassian JIRA.",
+                "Collaborate with developers to improve overall functionallity and optimizing the user experience of request portal page using React, Redux, React-forms and TailWindCSS."
         ]
 },
 {
