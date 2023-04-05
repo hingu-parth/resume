@@ -3,6 +3,8 @@ import "./homepage.modules.css"
 import { contact, education, experience, project, skills } from '../literals'
 import Section from '../Sections/section'
 import Contact from '../Sections/contact'
+import { BsFillSunFill } from "react-icons/bs";
+import { BsMoon } from "react-icons/bs";
 
 const HomePage = () => {
   const experienceDetails= experience
@@ -29,15 +31,16 @@ const HomePage = () => {
     {/* <!-- Page --> */}
     <div className={`p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-executive xsm:p-8 sm:p-9 md:p-16 print:mt-16 print:bg-white text-left drop-shadow-md `}>
     {/* <!-- Name --> */}
-      <header className="flex items-center mb-8 md:mb-11">
-        <button   className="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3 headerName" onClick={changeHandler}>
-          <div className="initial text-center headerName_title">P</div>
-          <div className="text-center initial">H</div>
-        </button>
+      <header className="flex-auto items-center mb-8 md:mb-11  ">
+        <div className='flex justify-between items-center '>
         {/* <img className="w-20 h-20 rounded-full" src="https://avatars.githubusercontent.com/u/38912107?s=400&u=622cedb7b85b49944e968ccc5193cc919b6fdafa&v=4" alt=""></img> */}
-        <h1 className="text-2xl font-semibold text-gray-750 pb-px dark:text-white">
+        <h1 className=" text-4xl font-semibold text-gray-750 pb-px dark:text-white">
           Parth Hingu
         </h1>
+        <button   className="print:invisible px-3 headerName rounded-lg border-2 border-spacing-1 border-gray-550 transition-all duration-100 ease-in-out" onClick={changeHandler} >
+        {mode==='light' ? <BsFillSunFill className='text-gray-700'/> : <BsMoon className='text-whtie' />}
+        </button>
+        </div>
       </header>
 
       {/* <!-- end Name --> */}
