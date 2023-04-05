@@ -7,7 +7,7 @@ import List from './list'
 
     <div class="break-inside-avoid">
 
-    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+    <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal dark:text-white">
       {title}
     </h2>
       {details.map((detail) => (

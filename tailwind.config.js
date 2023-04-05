@@ -3,6 +3,7 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     /* For Letter size */
     screens: {

@@ -11,31 +11,31 @@ const Contact = (props) => {
     <section class="mt-8 first:mt-0">
           <div class="break-inside-avoid">
 
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal dark:text-white">
               {title}
             </h2>
 
             <section class="mb-4.5 break-inside-avoid">
               <ul class="list-inside pr-7">
-                {website?(<li class="mt-1.5 leading-normal text-gray-700 text-md">
+                {website?(<li class="mt-1.5 leading-normal text-gray-700 text-md dark:text-gray-550">
                   <a href={website} class="group">
                     {website}
                     <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                   </a>
                 </li>):''}
-                {linkedIn?(<li class="mt-1.5 leading-normal text-gray-700 text-md">
+                {linkedIn?(<li class="mt-1.5 leading-normal text-gray-700 text-md dark:text-gray-550">
                   <a href={linkedIn} class="group">
                     {linkedIn}
                     <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                   </a>
                 </li>):''}
-                {github?(<li class="mt-1.5 leading-normal text-gray-700 text-md">
+                {github?(<li class="mt-1.5 leading-normal text-gray-700 text-md dark:text-gray-550">
                   <a href={github} class="group">
                     {github}
                     <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                   </a>
                 </li>):''}
-                {contact?(<li class="mt-1.5 leading-normal text-gray-700 text-md">
+                {contact?(<li class="mt-1.5 leading-normal text-gray-700 text-md dark:text-gray-550">
                     {contact}
                 </li>):''}
                 
